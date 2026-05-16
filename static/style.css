@@ -128,6 +128,48 @@ ul, ol { list-style: none; }
   line-height: 1.75;
 }
 
+/* ---- Badges ------------------------------------------------ */
+.badge-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: var(--gray-100);
+  color: var(--gray-600);
+}
+
+.badge--beginner {
+  background: var(--green-100);
+  color: var(--green-500);
+}
+
+.badge--web {
+  background: var(--indigo-100);
+  color: var(--indigo-600);
+}
+
+.badge--python {
+  background: var(--yellow-100);
+  color: var(--orange-500);
+}
+
+.badge--data {
+  background: var(--purple-100);
+  color: var(--purple-600);
+}
+
 /* ---- Navigation ------------------------------------------- */
 .navbar {
   position: fixed;
